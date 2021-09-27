@@ -1,0 +1,34 @@
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+  --Font-size-nameAndStats: 18px;
+
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.ff-Kumbh-Sans {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.color-dark-cyan {
+  color: var(--Dark-cyan);
+}
+
+.bgcolor-dark-cyan {
+  background-color: var(--Dark-cyan);
+}
+
+.color-very-dark-desaturated-blue {
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.color-dark-grayish-blue {
+  color: var(--Dark-grayish-blue);
+}
+
+.color-dark-gray {
+  color: var(--Dark-gray);
+}

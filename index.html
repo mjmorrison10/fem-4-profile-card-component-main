@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex items-center justify-center flex-col h-screen bgcolor-dark-cyan"
+  >
+    <main class="rounded-xl overflow-hidden">
+      <section class="top h-max bg-blue-200">
+        <img src="./images/bg-pattern-card.svg" alt="" />
+      </section>
+      <section
+        class="
+          bottom
+          flex flex-col
+          items-center
+          justify-center
+          relative
+          bg-white
+        "
+      >
+        <div
+          class="
+            w-max
+            h-max
+            rounded-full
+            border-4 border-white
+            overflow-hidden
+            absolute
+            -top-12
+          "
+        >
+          <img src="./images/image-victor.jpg" alt="" />
+        </div>
+        <div
+          class="nameAndAge flex justify-center items-center mt-16 space-x-2"
+        >
+          <h1 class="name font-bold color-very-dark-desaturated-blue">
+            Victor Crest
+          </h1>
+          <p class="age color-dark-grayish-blue">26</p>
+        </div>
+        <p class="city mb-4 color-dark-grayish-blue">London</p>
+        <div
+          class="
+            status
+            flex
+            w-full
+            items-center
+            justify-evenly
+            border-t-2 border-gray-200
+          "
+        >
+          <div class="followers mt-4">
+            <h1 class="number color-very-dark-desaturated-blue font-bold">
+              80K
+            </h1>
+            <p class="text color-dark-gray text-xs mb-4">Followers</p>
+          </div>
+          <div class="likes mt-4">
+            <h1 class="number color-very-dark-desaturated-blue font-bold">
+              803K
+            </h1>
+            <p class="text color-dark-gray text-xs mb-4">Likes</p>
+          </div>
+          <div class="photos mt-4">
+            <h1 class="number color-very-dark-desaturated-blue font-bold">
+              1.4K
+            </h1>
+            <p class="text color-dark-gray text-xs mb-4">Photos</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://mjmorrison10.github.io/Portfolio/">mjmorrison10</a>.
+    </footer>
+  </body>
+</html>
